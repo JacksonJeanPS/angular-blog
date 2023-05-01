@@ -1,17 +1,13 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000010079/a746d6ebc71bd10eb74ded9afb4ac96b8a795268e9ad47bda982c82190404b0a" alt="" srcset=""
+    <img src="{{ photoCover }}" alt="" srcset=""
     height="200px"
     width="300px">
   </div>
   <div class="big-card__title">
-    <h1><a href="#"> Saiu uma nova versão angular! </a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
-    <p><a href="#">
-      Este parágrafo informa que uma nova versão do framework Angular foi lançada,
-      sem dar detalhes específicos sobre quais recursos ou melhorias foram adicionados
-      à plataforma. É uma declaração simples e direta que pode ser utilizada como um ponto
-      de partida para se buscar mais informações sobre a atualização.</a></p>
+    <p><a href="#">{{ cardDescription }}</a></p>
   </div>
 </div>
